@@ -1,5 +1,8 @@
 # Overview of the Learning Coach declarative agent sample
-![Learning Coach Start Screen](assets/LearningCoach1.png)
+[![jp](https://img.shields.io/badge/lang-en-red.svg)](README-JP.md)
+[![en](https://img.shields.io/badge/lang-ja-green.svg)](README.md)
+
+![Business Process Advisor Start Screen](assets/BusinessProcessAdvisor1.png)
 
 The "Learning Coach" Declarative Agent is an open-source AI-driven tool designed to assist users in understanding complex terms or topics by breaking them down into simple, intermediate, and detailed summaries. This agent acts as a supportive and knowledgeable coach, dedicated to enhancing users' understanding of complex subjects, practicing existing skills, and defining the right learning process tailored to their goals and needs.
 
@@ -30,7 +33,7 @@ With the declarative agent, you can build a custom version of Copilot that can b
 > - [Teams Toolkit Visual Studio Code Extension](https://aka.ms/teams-toolkit) version 5.0.0 and higher or [Teams Toolkit CLI](https://aka.ms/teamsfx-toolkit-cli)
 > - [Microsoft 365 Copilot license](https://learn.microsoft.com/microsoft-365-copilot/extensibility/prerequisites#prerequisites)
 
-![Leaning Coach in action](assets/LearningCoach2.png)
+![Leaning Coach in action](assets/BusinessProcessAdvisor2.png)
 
 1. First, select the Teams Toolkit icon on the left in the VS Code toolbar.
 2. In the Account section, sign in with your [Microsoft 365 account](https://docs.microsoft.com/microsoftteams/platform/toolkit/accounts) if you haven't already.
