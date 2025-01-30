@@ -1,0 +1,49 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.19/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.19",
+    "version": "1.0.1",
+    "id": "${{TEAMS_APP_ID}}",
+    "developer": {
+        "name": "Modern Work Usage Architect",
+        "websiteUrl": "https://github.com/TK3214-MS/POC-Agent-BusinessProcessAdvisor",
+        "privacyUrl": "https://github.com/TK3214-MS/POC-Agent-BusinessProcessAdvisor",
+        "termsOfUseUrl": "https://github.com/TK3214-MS/POC-Agent-BusinessProcessAdvisor"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Business Process Advisor",
+        "full": "Business Process Advisor"
+    },
+    "description": {
+        "short": "Unlock modernized business process with Business Process Advisor",
+        "full": "Business Process Advisor is the supportive and knowledgeable business process consultant dedicated to helping you organize complex business processes, clarify the problem, and propose better way to modernize your business process tailored to your goals. Business Process Advisor is designed to work with Microsoft 365 Copilot."
+    },
+    "accentColor": "#FFFFFF",
+    "localizationInfo": {
+        "defaultLanguageTag": "en-US",
+        "defaultLanguageFile": "loc/manifest.en-US.json",
+        "additionalLanguages": [
+            {
+                "languageTag": "ja-JP",
+                "file": "loc/manifest.ja-JP.json"
+            }
+        ]
+    },
+    "composeExtensions": [],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "copilotAgents": {
+        "declarativeAgents": [
+            {
+                "id": "dcBusinessProcessAdvisor",
+                "file": "declarativeAgent.json"
+            }
+        ]
+    },
+    "validDomains": []
+}

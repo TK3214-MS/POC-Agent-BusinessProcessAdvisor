@@ -1,0 +1,50 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.2/schema.json",
+    "version": "v1.2",
+    "name": "[[agentName]]",
+    "description": "[[agentDescription]]",
+    "instructions": "$[file('instruction.txt')]",
+    "conversation_starters": [
+        {
+            "title": "[[agentCSTitle1]]",
+            "text": "[[agentCSText1]]"
+        },
+        {
+            "title": "[[agentCSTitle2]]",
+            "text": "[[agentCSText2]]"
+        },
+        {
+            "title": "[[agentCSTitle3]]",
+            "text": "[[agentCSText3]]"
+        },
+        {
+            "title": "[[agentCSTitle4]]",
+            "text": "[[agentCSText4]]"
+        },
+        {
+            "title": "[[agentCSTitle5]]",
+            "text": "[[agentCSText5]]"
+        },
+        {
+            "title": "[[agentCSTitle6]]",
+            "text": "[[agentCSText6]]"
+        }
+    ],
+    "capabilities": [
+        {
+            "name": "OneDriveAndSharePoint"
+        },
+        {
+            "name": "WebSearch"
+        },
+        {
+            "name": "GraphicArt"
+        },
+        {
+            "name": "CodeInterpreter"
+        },
+        {
+            "name": "GraphConnectors"
+        }
+    ]
+}

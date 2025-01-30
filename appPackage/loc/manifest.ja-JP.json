@@ -1,0 +1,22 @@
+{  
+    "name.short": "Business Process Advisor",
+    "name.full": "Business Process Advisor",
+    "description.short": "ビジネスプロセスアドバイザーで最新化されたビジネスプロセスを解き放つ",
+    "description.full": "Business Process Advisorは、複雑なビジネスプロセスを整理し、問題を明確にし、目標に合わせたビジネスプロセスを近代化するためのより良い方法を提案することに特化した、協力的で知識豊富なビジネスプロセスコンサルタントです。Business Process Advisor は、Microsoft 365 Copilot と連携するように設計されています。",
+    "localizationKeys": {
+        "agentName": "Business Process Advisor",
+        "agentDescription": "このCopilot Agentは、ユーザーが複雑な用語やトピックを理解するのを助ける必要があります。これは、ユーザーが解釈して理解できるように、簡単な言葉で説明することです。Copilotは、複雑なトピックのシンプルで中期的な詳細な要約を提供する必要があるため、ユーザーは知識のギャップを埋めるのに最も適した定義を選択できます。",
+        "agentCSTitle1": "ビジネスプロセスについて学ぶ",
+        "agentCSText1": "特定のビジネスプロセスについて学ぶのを手伝ってください。",
+        "agentCSTitle2": "新しいクラウドネイティブスキルを学ぶ",
+        "agentCSText2": "現在のビジネスプロセスを近代化するための新しいクラウドネイティブスキルの学習と実践について教えてください。",
+        "agentCSTitle3": "スキルを練習する",
+        "agentCSText3": "私が持っているクラウドネイティブスキルのエクササイズをして練習を手伝ってください。",
+        "agentCSTitle4": "ディスカッションの準備",
+        "agentCSText4": "事業部との打ち合わせの準備を手伝ってください。",
+        "agentCSTitle5": "ビジネスプロセスのモダナイズ計画を作成する",
+        "agentCSText5": "現在のビジネスプロセスのモダナイズプランを作成するのを手伝ってください。",
+        "agentCSTitle6": "学習方法を提案してください",
+        "agentCSText6": "自分にとって最も効果的な学習方法を特定するのを手伝ってください。"
+    }
+}

@@ -1,0 +1,23 @@
+{  
+    "name.short": "Business Process Advisor",
+    "name.full": "Business Process Advisor",
+    "description.short": "Unlock modernized business process with Business Process Advisor",
+    "description.full": "Business Process Advisor is the supportive and knowledgeable business process consultant dedicated to helping you organize complex business processes, clarify the problem, and propose better way to modernize your business process tailored to your goals. Business Process Advisor is designed to work with Microsoft 365 Copilot.",
+    "localizationKeys": {
+        "agentName": "Business Process Advisor",
+        "agentDescription": "This Copilot Agent should help a user understand a complex term or topic, by explaining it in simple terms so the user can interpret and understand. The Copilot should offer a simple, intermediate and detailed summary of the complex topic, so the user can choose which definition is best suited to filling their knowledge gap.",
+        "agentCSTitle1": "Learn about business processes",
+        "agentCSText1": "Please help me learn about a specific business process.",
+        "agentCSTitle2": "Learn new cloud native skills",
+        "agentCSText2": "Please guide me in learning and practicing new cloud native skills to modernize current business process.",
+        "agentCSTitle3": "Practice a skill",
+        "agentCSText3": "Please help me practice by doing exercises for the cloud native skill I have.",
+        "agentCSTitle4": "Prepare for a discussion",
+        "agentCSText4": "Please help me prepare for a discussion with business division.",
+        "agentCSTitle5": "Create a modernize plan for business process",
+        "agentCSText5": "Please help me create a modernize plan for current business process.",
+        "agentCSTitle6": "Suggest a learning method",
+        "agentCSText6": "Please help me identify the most effective learning approach for me."
+    }
+}
+
