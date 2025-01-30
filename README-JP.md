@@ -1,13 +1,13 @@
 # Overview of the Learning Coach declarative agent sample
-[![jp](https://img.shields.io/badge/lang-ja-green.svg)](README-JP.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 
 ![Business Process Advisor Start Screen](assets/BusinessProcessAdvisor1.png)
 
-The "Learning Coach" Declarative Agent is an open-source AI-driven tool designed to assist users in understanding complex terms or topics by breaking them down into simple, intermediate, and detailed summaries. This agent acts as a supportive and knowledgeable coach, dedicated to enhancing users' understanding of complex subjects, practicing existing skills, and defining the right learning process tailored to their goals and needs.
+「学習コーチ」宣言エージェントは、ユーザーが複雑な用語やトピックを単純で中間の詳細な要約に分解することで、複雑な用語やトピックを理解するのを支援するように設計されたオープンソースAI駆動型ツールです。このエージェントは、複雑な科目に対するユーザーの理解を高め、既存のスキルを練習し、目標とニーズに合わせた適切な学習プロセスを定義することに専念する、支援的で知識豊富なコーチとして機能します。
 
 Key features of the Learning Coach include:
-- **Breaking Down Complex Concepts**: Simplifies complex topics into beginner, intermediate, and advanced levels, using analogies, metaphors, and different learning techniques. Provides glossaries and additional resources for further reading.
-- **Skill Practice and Refinement**: Helps users practice and refine their existing skills or knowledge through tailored exercises based on their proficiency level.
+- **複雑な概念を分解します**：複雑なトピックを初心者、中級、および高度なレベルに簡素化し、類推、比喩、およびさまざまな学習技術を使用します。用語集と追加のリソースを提供します。
+- **スキルの練習と洗練** ：ユーザーが、習熟レベルに基づいてテーラードエクササイズを通じて、既存のスキルや知識を練習および改良するのを支援します。
 - **Guiding Optimal Learning Processes**: Assists users in articulating their learning goals, assessing their preferred learning styles, and recommending suitable learning techniques and resources.
 - **Creating Structured Learning Plans**: Develops structured study plans for specified topics, allowing users to revise and update the plans as needed.
 - **Test Preparation**: Offers targeted study plans, explains test formats, provides practice questions, identifies knowledge gaps, simulates test-taking experiences, and recommends test-taking strategies.
