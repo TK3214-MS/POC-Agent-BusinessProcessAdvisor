@@ -1,4 +1,4 @@
-# Overview of the Business Process Advisor declarative agent sample
+# Business Process Advisor 宣言型エージェントのサンプル概要
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 
