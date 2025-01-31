@@ -1,68 +1,78 @@
-# Overview of the Learning Coach declarative agent sample
+# Overview of the Business Process Advisor declarative agent sample
+
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 
 ![Business Process Advisor Start Screen](assets/BusinessProcessAdvisor1.png)
 
-「学習コーチ」宣言エージェントは、ユーザーが複雑な用語やトピックを単純で中間の詳細な要約に分解することで、複雑な用語やトピックを理解するのを支援するように設計されたオープンソースAI駆動型ツールです。このエージェントは、複雑な科目に対するユーザーの理解を高め、既存のスキルを練習し、目標とニーズに合わせた適切な学習プロセスを定義することに専念する、支援的で知識豊富なコーチとして機能します。
+「Business Process Advisor」宣言型エージェントは、ユーザーが複雑なビジネスプロセスを単純、中、詳細な要約に分解することにより、理解を支援するように設計されたオープンソースのAI駆動型ツールです。このエージェントは、複雑なビジネス プロセスに対するユーザーの理解を深め、Microsoft サービスを使用して望ましい技術的アプローチを明確にし、目標とニーズに合わせた適切な学習プロセスを定義することに専念する、支援的で知識豊富なコンサルタントとして機能します。
 
-Key features of the Learning Coach include:
-- **複雑な概念を分解します**：複雑なトピックを初心者、中級、および高度なレベルに簡素化し、類推、比喩、およびさまざまな学習技術を使用します。用語集と追加のリソースを提供します。
-- **スキルの練習と洗練** ：ユーザーが、習熟レベルに基づいてテーラードエクササイズを通じて、既存のスキルや知識を練習および改良するのを支援します。
-- **Guiding Optimal Learning Processes**: Assists users in articulating their learning goals, assessing their preferred learning styles, and recommending suitable learning techniques and resources.
-- **Creating Structured Learning Plans**: Develops structured study plans for specified topics, allowing users to revise and update the plans as needed.
-- **Test Preparation**: Offers targeted study plans, explains test formats, provides practice questions, identifies knowledge gaps, simulates test-taking experiences, and recommends test-taking strategies.
-- **Guided Language Practice**: Provides interactive language lessons, vocabulary practice, grammar tips, and conversational exercises tailored to the user's level.
+Business Process Advisorの主な機能は次のとおりです。:
 
-The Learning Coach maintains a professional and supportive tone throughout interactions, ensuring that conversations are contextual and relevant. It integrates with OneDrive, SharePoint, and Graph Connectors to enhance its capabilities. The agent is designed to adapt its content based on the user's needs, interests, and goals, presenting information in a brief, simple, and logical manner to avoid overwhelming the user.
+- **複雑なビジネスプロセスを分解し、問題点を理解する** : 複雑なビジネスプロセスを、類推、比喩、さまざまな視点を使用して、初心者、中級、上級レベルに簡素化します。さらに検討するための用語集と追加リソースを提供します。
 
-This open-source project aims to empower individuals to achieve their learning goals through structured guidance and support. By providing a customizable and extensible framework, the Learning Coach Declarative Agent can be adapted to various educational contexts and user needs, making it a versatile tool for personal and professional development.
+- **ユーザーが Microsoft サービスを使用してビジネス プロセスの最新化を実現する方法をアドバイスする**: ビジネス プロセスの最新化を実現するために使用できる Microsoft サービスをユーザーが特定するのに役立ちます。
 
-## Build a basic declarative agent
+- **最適な学習プロセスへ導く**: ユーザーが学習目標を明確にし、好みの学習スタイルを評価し、適切な学習手法とリソースを推奨するのを支援します。
 
-With the declarative agent, you can build a custom version of Copilot that can be used for specific scenarios, such as for specialized knowledge, implementing specific processes, or simply to save time by reusing a set of AI prompts. For example, a grocery shopping Copilot declarative agent can be used to create a grocery list based on a meal plan that you send to Copilot.
+- **構造化された学習プランの作成**: 特定のトピックについて構造化された学習計画を作成し、ユーザーが必要に応じて計画を修正および更新できるようにします。
 
-## Get started with the sample
+- **Q&Aの準備**: ターゲットを絞った Q&A ディスカッション プランを提供し、各 Q&A 項目の動機を説明し、練習問題を提供し、知識のギャップを特定し、Q&A エクスペリエンスをシミュレートし、Q&A ディスカッション戦略を推奨します。
 
-> **Prerequisites**
+Business Process Advisorは、インタラクション全体を通じてプロフェッショナルで協力的なトーンを維持し、会話が文脈に即し、関連性があることを確認します。OneDrive、SharePoint、Web 検索、Graph コネクタと統合して、機能を強化します。エージェントは、ユーザーのニーズ、興味、目標に基づいてコンテンツを適応させるように設計されており、ユーザーを圧倒しないように、簡潔でシンプルかつ論理的な方法で情報を提示します。
+
+このオープンソース プロジェクトは、構造化されたガイダンスとサポートを通じて、ビジネス プロセスを最新化する方法についての全体像を把握するという目標を個人が達成できるようにすることを目的としています。Business Process Advisor Declarative Agent は、カスタマイズ可能で拡張可能なフレームワークを提供することで、さまざまなビジネス プロセスの最新化コンテキストとユーザー ニーズに適合させることができ、個人的および専門的な開発のための汎用性の高いツールになります。
+
+## 基本的な宣言型エージェントを構築する
+
+宣言型エージェントを使用すると、専門知識、特定のプロセスの実装、または単に一連の AI プロンプトを再利用して時間を節約するなど、特定のシナリオで使用できる Copilot のカスタム バージョンを構築できます。たとえば、食料品の買い物 Copilot 宣言型エージェントを使用して、Copilot に送信する食事プランに基づいて食料品リストを作成できます。
+
+## サンプルの使用を開始する
+
+> **前提条件**
 >
-> To run this app sample in your local dev machine, you will need:
+> このアプリ サンプルをローカルの開発用コンピューターで実行するには、次のものが必要です:
 >
 > - [Node.js](https://nodejs.org/), supported versions: 16, 18
 > - A [Microsoft 365 account for development](https://docs.microsoft.com/microsoftteams/platform/toolkit/accounts).
 > - [Teams Toolkit Visual Studio Code Extension](https://aka.ms/teams-toolkit) version 5.0.0 and higher or [Teams Toolkit CLI](https://aka.ms/teamsfx-toolkit-cli)
 > - [Microsoft 365 Copilot license](https://learn.microsoft.com/microsoft-365-copilot/extensibility/prerequisites#prerequisites)
 
-![Leaning Coach in action](assets/BusinessProcessAdvisor2.png)
+![Business Process Advisor in action](assets/BusinessProcessAdvisor2.gif)
 
-1. First, select the Teams Toolkit icon on the left in the VS Code toolbar.
-2. In the Account section, sign in with your [Microsoft 365 account](https://docs.microsoft.com/microsoftteams/platform/toolkit/accounts) if you haven't already.
-3. Create Teams app by clicking `Provision` in "Lifecycle" section.
-4. Select `Preview in Copilot (Edge)` or `Preview in Copilot (Chrome)` from the launch configuration dropdown.
-5. Once the Copilot app is loaded in the browser, click on the "…" menu and select "Copilot chats". You will see your declarative agent on the right rail. Clicking on it will change the experience to showcase the logo and name of your declarative agent.
-6. Ask a question to your declarative agent and it should respond based on the instructions provided.
+1. まず、VS Code ツール バーの左側にある Teams Toolkit アイコンを選択します。
 
-## What's included in the sample
+2. [アカウント] セクションで、[Microsoft 365 アカウント](https://docs.microsoft.com/microsoftteams/platform/toolkit/accounts) でサインインします (まだサインインしていない場合は)。
 
-| Folder       | Contents                                                                                 |
+3. [ライフサイクル] セクションの [プロビジョニング] をクリックして、Teams アプリを作成します。
+
+4. 起動設定のドロップダウンから `Preview in Copilot (Edge)` または `Preview in Copilot (Chrome)` を選択します。
+
+5. Copilot アプリがブラウザに読み込まれたら、「...」メニューをクリックし、`Copilot Chats`を選択します。右側のレールに宣言型エージェントが表示されます。それをクリックすると、宣言型エージェントのロゴと名前が表示されるようにエクスペリエンスが変わります。
+
+6. 宣言型エージェントに質問すると、提供された指示に基づいて応答するはずです。
+
+## サンプルに含まれるもの
+
+| フォルダー       | 内容                                                                                 |
 | ------------ | ---------------------------------------------------------------------------------------- |
-| `.vscode`    | VSCode files for debugging                                                               |
-| `appPackage` | Templates for the Teams application manifest, the GPT manifest and the API specification |
-| `env`        | Environment files                                                                        |
+| `.vscode`    | デバッグ用の VSCode ファイル                                                               |
+| `appPackage` | Teams アプリケーション マニフェスト、GPT マニフェスト、API 仕様のテンプレート |
+| `env`        | 環境変数                                                                        |
 
-The following files can be customized and demonstrate an example implementation to get you started.
+次のファイルはカスタマイズでき、実装例を示して開始できます。
 
-| File                                 | Contents                                                                       |
+| ファイル                                 | 内容                                                                       |
 | ------------------------------------ | ------------------------------------------------------------------------------ |
-| `appPackage/declarativeAgent.json` | Define the behaviour and configurations of the declarative agent.            |
-| `appPackage/manifest.json`           | Teams application manifest that defines metadata for your declarative agent. |
+| `appPackage/declarativeAgent.json` | 宣言型エージェントの動作と構成を定義します。            |
+| `appPackage/manifest.json`           | 宣言型エージェントのメタデータを定義する Teams アプリケーション マニフェスト。 |
 
-The following are Teams Toolkit specific project files. You can [visit a complete guide on Github](https://github.com/OfficeDev/TeamsFx/wiki/Teams-Toolkit-Visual-Studio-Code-v5-Guide#overview) to understand how Teams Toolkit works.
+Teams Toolkit 固有のプロジェクト ファイルを次に示します。[Github の完全なガイド](https://github.com/OfficeDev/TeamsFx/wiki/Teams-Toolkit-Visual-Studio-Code-v5-Guide#overview) にアクセスして、Teams Toolkit のしくみを理解できます。
 
-| File           | Contents                                                                                                                                  |
+| ファイル           | 内容                                                                                                                                  |
 | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| `teamsapp.yml` | This is the main Teams Toolkit project file. The project file defines two primary things: Properties and configuration Stage definitions. |
+| `teamsapp.yml` | これは、メインの Teams Toolkit プロジェクト ファイルです。プロジェクト・ファイルでは、プロパティと構成ステージ定義の 2 つの主要なものを定義します。 |
 
-## Addition information and references
+## 追加情報と参考資料
 
 - [Declarative agents for Microsoft 365](https://aka.ms/teams-toolkit-declarative-agent)
-![](https://m365-visitor-stats.azurewebsites.net/SamplesGallery/da-LearningCoach)
+- [Microsoft 365 Copilot Extensibility Sample](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/samples)
