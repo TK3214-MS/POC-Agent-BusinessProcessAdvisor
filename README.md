@@ -55,7 +55,6 @@ With the declarative agent, you can build a custom version of Copilot that can b
 
 | Folder       | Contents                                                                                 |
 | ------------ | ---------------------------------------------------------------------------------------- |
-| `.vscode`    | VSCode files for debugging                                                               |
 | `appPackage` | Templates for the Teams application manifest, the GPT manifest and the API specification |
 | `env`        | Environment files                                                                        |
 
