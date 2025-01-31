@@ -2,7 +2,7 @@
 
 [![jp](https://img.shields.io/badge/lang-ja-green.svg)](README-JP.md)
 
-![Business Process Advisor Start Screen](assets/BusinessProcessAdvisor1.png)
+![Business Process Advisor Start Screen](assets/BusinessProcessAdvisor1-EN.png)
 
 The "Business Process Advisor" Declarative Agent is an open-source AI-driven tool designed to assist users in understanding complex business process by breaking them down into simple, intermediate, and detailed summaries. This agent acts as a supportive and knowledgeable consultant, dedicated to enhancing users' understanding of complex business process, clarifying desired technical approach using Microsoft services, and defining the right learning process tailored to their goals and needs.
 
