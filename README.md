@@ -71,6 +71,63 @@ The following are Teams Toolkit specific project files. You can [visit a complet
 | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | `teamsapp.yml` | This is the main Teams Toolkit project file. The project file defines two primary things: Properties and configuration Stage definitions. |
 
+## Sample Prompt
+
+You can use prompts below to test out how Business Process Advisor agent works.
+
+```
+Give me recommended steps to modernize our current process like this with Microsoft services:
+
+### Legacy Manual Inventory Management Process
+
+1. **Stock Counting**:
+   - Employees manually count the items in the store and the warehouse. This is often done using pen and paper or simple spreadsheets.
+   - The counting process is typically scheduled periodically, such as weekly or monthly, to ensure inventory levels are accurate.
+
+2. **Recording Inventory**:
+   - After counting, employees record the inventory levels in a logbook or spreadsheet. This involves noting down the quantities of each item, their locations, and any discrepancies found during the count.
+   - The recorded data is then manually entered into the company's inventory management system, if one exists.
+
+3. **Reordering Stock**:
+   - Based on the recorded inventory levels, employees determine which items need to be reordered. This decision is often made by comparing current stock levels against predefined reorder points.
+   - Purchase orders are manually created and sent to suppliers. This can involve filling out order forms, sending emails, or making phone calls.
+
+4. **Receiving Stock**:
+   - When new stock arrives, employees manually check the received items against the purchase orders. This involves counting the items, inspecting them for quality, and noting any discrepancies.
+   - The received stock is then manually recorded in the inventory system, and the physical items are placed in their designated locations in the store or warehouse.
+
+5. **Updating Inventory Records**:
+   - Throughout the day, as sales are made, employees manually update the inventory records to reflect the items sold. This can involve writing down sales in a logbook or updating a spreadsheet.
+   - At the end of the day, these records are reconciled with the point-of-sale (POS) system to ensure accuracy.
+
+### Challenges of Legacy Manual Inventory Management
+
+- **Time-Consuming**: Manual counting and recording of inventory are labor-intensive and time-consuming tasks.
+- **Prone to Errors**: Human errors in counting, recording, and data entry can lead to inaccurate inventory levels, resulting in stockouts or overstock situations.
+- **Lack of Real-Time Data**: Manual processes do not provide real-time inventory data, making it difficult to make informed decisions quickly.
+- **Inefficiency**: The manual process can be inefficient, especially for large inventories, leading to delays in reordering and receiving stock.
+```
+
+![Sample01](assets/Sample01.png)
+
+```
+Please tell us the value (man-hours reduced) to the organization that can be obtained by introducing Microsoft 365 Copilot.
+```
+
+![Sample02](assets/Sample02.png)
+
+```
+Based on this information, show the relationship between the license fee and the man-hour reduction effect that can be obtained, and draw the ROI in a graph
+```
+
+![Sample03](assets/Sample03.png)
+
+```
+I like that graph! I want you to create logo for this project to modernize current legacy business processes
+```
+
+![Sample04](assets/Sample04.png)
+
 ## Addition information and references
 
 - [Declarative agents for Microsoft 365](https://aka.ms/teams-toolkit-declarative-agent)
